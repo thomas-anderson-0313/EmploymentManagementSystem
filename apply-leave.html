@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ApplyLeave</title>
+    <meta name="description" content="Login - Register Template">
+    <meta name="author" content="Lorenzo Angelino aka MrLolok">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("bg.jpg");
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html" class="logo header-line"><img src="logo.png"></a>
+        <div class="college-name header-line">GOVERNMENT POLYTECHNIC DIGLIPUR</div>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <a href="main-emp.html">Home</a>
+        <a href="emp-register.html">New Employee Registration</a>
+        <a href="re-register.html">Update Employee </a>
+        <a href="apply-leave.html" class="active">Apply Leave  </a>
+        <a href="view-salary-report.html">View Salary Report  </a>
+        <a href="check-leave.html">Check Leave  </a>
+        <a href="work-sheet.html">Work Sheet   </a>
+        <a href="re-register.html">Forget Password  </a>
+        <a href="emp-login.html" style="float:right; margin-right: 70px;">Log Out</a>
+    </div>
+    <div class="stage-admin">
+        <div class="first" style="text-align:left;font-size:17px;color:blueviolet;margin-left:5%; width:43% ;margin-top: 2%;">
+            <h2 class="welcome">👋🏻 Welcome to HERE 😁</h2><br>
+            <form>
+                <div>
+                    <span>Apply Date: </span>
+                    <input type="date" required class="validate" autocomplete="off">
+                </div><br>
+                <p>
+                    <div>Leave Date</div><br>
+                    <span>From: </span>
+                    <input type="date" required class="validate" autocomplete="off">
+                    <span>Start: </span>
+                    <input type="date" required class="validate" autocomplete="off">
+                </p>
+                <p>
+                    <span>Duration: </span>
+                    <input type="text" required class="validate" autocomplete="off" style="background-color: white !important;">
+                </p>
+                <p>
+
+                    <div>Reasons: </div>
+                    <input type="radio" name="Reasons" id="Birth" value="Birth" required class="validate" autocomplete="off">
+                    <label for="Birth">Birth of a Child</label><br>
+                    <input type="radio" name="Reasons" id="Death" value="Death" required class="validate" autocomplete="off">
+                    <label for="Death">Death in the Family</label><br>
+                    <input type="radio" name="Reasons" id="Mili" value="Mili" required class="validate" autocomplete="off">
+                    <label for="Mili">Military Duty/Family Member</label><br>
+                    <input type="radio" name="Reasons" id="health" value="health" required class="validate" autocomplete="off">
+                    <label for="health">Health Reasons</label><br>
+                    <input type="radio" name="Reasons" id="care" value="care" required class="validate" autocomplete="off">
+                    <label for="care">Care for Ailing Family Members</label><br>
+                    <input type="radio" name="Reasons" id="other" value="other" required class="validate" autocomplete="off">
+                    <label for="other">Others</label><br>
+
+                </p>
+                <p>
+                    <div>More details (optional): </div>
+                    <textarea rows="3" cols="40" placeholder="Please write here more..."></textarea>
+                </p>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+        <div class="second" style="margin-top: 15%;">
+            <img src="apply-leave.jpg" style="border-radius:50% ;">
+            <h1 style="color:rgb(28, 167, 97);">Apply Leave</h1>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>EMS</title>
+    <meta name="description" content="Login - Register Template">
+    <meta name="author" content="Lorenzo Angelino aka MrLolok">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("bg.jpg");
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-line">
+            <a href="index.html" class="logo"><img src="logo.png"></a>
+        </div>
+        <div class="college-name header-line">GOVERNMENT POLYTECHNIC DIGLIPUR</div>
+    </div>
+    <div id="container-login">
+        <div class="first">
+            <img src="sub-bg.jpg">
+            <h1 style="color:black;">Employee Management System</h1>
+        </div>
+        <div class="second">
+            <div id="title">
+                <i class="material-icons lock">lock</i> Login
+            </div>
+            <h1 class="welcome">👋🏻 Welcome to HERE 👋🏻</h1><br>
+            <div class="swap">
+                <a href="#"><span class="admin">Administrator</span></a>
+                <a href="emp-login.html"><span class="emp">Employee</span></a>
+            </div>
+            <form action="main-admin.html">
+                <div class="input">
+                    <div class="input-addon">
+                        <i class="material-icons">face</i>
+                    </div>
+                    <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="input">
+                    <div class="input-addon">
+                        <i class="material-icons">vpn_key</i>
+                    </div>
+                    <input id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
+                </div>
+
+                <div class="remember-me">
+                    <input type="checkbox">
+                    <span style="color: #757575">Remember Me</span>
+                </div>
+
+                <input type="submit" value="Log In">
+
+            </form>
+
+            <div class="forgot-password">
+                <a href="admin-forget.html">Forgot your password?</a>
+            </div>
+            <!-- <div class="privacy">
+                <a href="#">Privacy Policy</a>
+            </div> -->
+
+            <!-- <div class="register">
+                <span style="color: #657575">Don't have an account yet?</span>
+                <a href="#"><button id="register-link">Register here</button></a>
+            </div> -->
+        </div>
+    </div>
+</body>
+
+</html>
